@@ -21,10 +21,10 @@ dependencies {
 
     // database
     implementation("org.postgresql", "postgresql", "42.5.0")
-    implementation("de.chojo.sadu", "sadu-queries", "1.2.0")
-    implementation("de.chojo.sadu", "sadu-updater", "1.2.0")
-    implementation("de.chojo.sadu", "sadu-postgresql", "1.2.0")
-    implementation("de.chojo.sadu", "sadu-datasource", "1.2.0")
+    implementation("sadu", "sadu-queries", "1.2.0")
+    implementation("sadu", "sadu-updater", "1.2.0")
+    implementation("sadu", "sadu-postgresql", "1.2.0")
+    implementation("sadu", "sadu-datasource", "1.2.0")
 
     // Logging
     implementation("org.slf4j", "slf4j-api", "2.0.3")
@@ -78,7 +78,7 @@ tasks {
     shadowJar {
         mergeServiceFiles()
         manifest {
-            attributes(mapOf("Main-Class" to "de.chojo.repbot.ReputationBot"))
+            attributes(mapOf("Main-Class" to "repbot.ReputationBot"))
         }
     }
 

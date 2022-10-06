@@ -12,7 +12,7 @@
     },
     {
       "groupName": "sadu",
-      "matchPackagePrefixes": ["de.chojo.sadu"]
+      "matchPackagePrefixes": ["sadu"]
     }
   ],
   "reviewers": [
