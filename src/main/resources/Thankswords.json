@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "English": [
+      "thx",
+      "thank[sx]?",
+      "ty",
+      "tyvm",
+      "tysm"
+    ],
+    "Deutsch": [
+      "dan[kg]e?",
+      "dankeschön"
+    ],
+    "Español": [
+      "agradezco",
+      "agradecid[oa]s?",
+      "gracias"
+    ],
+    "Français": [
+      "(?:re)?merci"
+    ],
+    "Português": [
+      "obrigad[oa]s?",
+      "obrigadíssim[oa]",
+      "agradecid[oa]",
+      "grat[oa]"
+    ],
+    "Русский": [
+      "спс",
+      "спасиб[ао]?",
+      "благодарю",
+      "спасибо большое"
+    ]
+  }
+}
